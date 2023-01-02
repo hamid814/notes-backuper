@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  background-color: #333;
+  color: #eee;
+}
+
+#container {
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+  direction: ltr;
+  position: relative;
+}
+
+.note-item {
+  position: absolute;
+  display: inline-block;
+  border: 1px solid #ddd;
+  padding: 20px;
+  cursor: default;
+}
+
+.note-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.note-button {
+  border: none;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  background-color: aliceblue;
+}
+
+.note-body {
+  overflow-wrap: break-word;
+  margin: 10px 0;
+}
+
+.other-tag {
+  margin: 0 5px;
+}
